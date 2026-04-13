@@ -1,8 +1,8 @@
 # Sorting_Assignment
 
 ## Student Name(s)
-Tomer Dvoskin
-Maya Mash
+Tomer Dvoskin  
+Maya Mashiah
 
 ## Selected Algorithms
 - Bubble Sort (ID 1)
@@ -14,7 +14,7 @@ Use the project virtual environment:
 
 ```bash
 source .venv/bin/activate
-python run_experiments.py -a 1 2 4 -s 100 500 1000 -e 1 -r 20
+python run_experiments.py -a 1 2 4 -s 100 300 600 1000 1500 2500 -e 1 -r 10
 ```
 
 This command generates:
