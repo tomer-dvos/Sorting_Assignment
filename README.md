@@ -9,17 +9,6 @@ Maya Mashiah
 - Selection Sort (ID 2)
 - Merge Sort (ID 4)
 
-## How To Run
-Use the project virtual environment:
-
-```bash
-source .venv/bin/activate
-python run_experiments.py -a 1 2 4 -s 100 300 600 1000 1500 2500 -e 1 -r 10
-```
-
-This command generates:
-- `result1.png` (random arrays)
-- `result2.png` (nearly sorted arrays with 5% or 20% noise from `-e`)
 
 ## Figure 1: Random Arrays (`result1.png`)
 ![result1](result1.png)
