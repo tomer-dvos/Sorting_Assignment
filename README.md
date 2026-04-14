@@ -1,6 +1,6 @@
 # Sorting_Assignment
 
-## Student Name(s)
+## Student Names
 Tomer Dvoskin  
 Maya Mashiah
 
