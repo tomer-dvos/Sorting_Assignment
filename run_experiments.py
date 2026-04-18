@@ -95,6 +95,8 @@ def run_experiment(algorithms, sizes, repeats, array_type="random", noise_level=
             avg_time = statistics.mean(times)
             std_dev = statistics.stdev(times) if repeats > 1 else 0.0
 
+            print(f"Algorithm: {algo.__name__} | Size: {size} | Avg Time: {avg_time:.4f}s | Std Dev: {std_dev:.4f}s")
+
             results[algo.__name__]["avg"].append(avg_time)
             results[algo.__name__]["std"].append(std_dev)
 
