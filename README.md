@@ -38,6 +38,6 @@ When compared to the completely random arrays in Figure 1, the running times cha
 ## Handling Large Input Sizes (The 10⁶ Elements Problem)
 As addressed by the course staff, testing algorithms with a theoretical time complexity of **O(N²)** (such as **Bubble Sort** and **Selection Sort**) on input sizes of `1,000,000` elements is highly impractical. An input size that large would result in up to 1,000,000,000,000 (one trillion) operations per repetition, which would take hours or days to complete on a standard computer.
 
-To solve this, we chose the approach of **running all algorithms only on smaller input sizes where they finish in a reasonable time, and comparing them to the faster algorithms on that shared range.** 
+To solve this, we chose the approach of running all algorithms only on smaller input sizes where they finish in a reasonable time, and comparing them to the faster algorithms on that shared range. 
 
 Our provided graphs scale up to `N = 10,000`. This range is more than sufficient to mathematically visualize the growing divide between the slow exponential growth of the O(N²) algorithms and the much flatter, efficient O(N log N) curve of Merge Sort.
