@@ -34,3 +34,10 @@ When compared to the completely random arrays in Figure 1, the running times cha
 - **Bubble Sort:** We observe a massive improvement in performance. Because our code implementation includes an early-stopping mechanism (a boolean `swapped` flag), Bubble Sort can rapidly skip over the sorted sections of the data. This brings its execution time incredibly close to its O(N) best-case scenario.
 - **Selection Sort:** The running time barely changes compared to Figure 1. This is because Selection Sort is fundamentally blind to existing order; it must scan the entirety of the unsorted section to find the minimum element on every single pass, remaining rigidly bound to O(N²).
 - **Merge Sort:** The performance remains consistently fast. Merge Sort divides and conquers the array identically regardless of the data's internal arrangement, steadily maintaining its optimal O(N log N) time framework.
+
+## Handling Large Input Sizes (The 10⁶ Elements Problem)
+As addressed by the course staff, testing algorithms with a theoretical time complexity of **O(N²)** (such as **Bubble Sort** and **Selection Sort**) on input sizes of `1,000,000` elements is highly impractical. An input size that large would result in up to 1,000,000,000,000 (one trillion) operations per repetition, which would take hours or days to complete on a standard computer.
+
+To solve this, we chose the approach of **running all algorithms only on smaller input sizes where they finish in a reasonable time, and comparing them to the faster algorithms on that shared range.** 
+
+Our provided graphs scale up to `N = 10,000`. This range is more than sufficient to mathematically visualize the growing divide between the slow exponential growth of the O(N²) algorithms and the much flatter, efficient O(N log N) curve of Merge Sort.
