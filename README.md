@@ -1,8 +1,8 @@
 # Sorting_Assignment
 
 ## Student Names
-Tomer Dvoskin  
-Maya Mashiah
+Tomer Dvoskin  213339666
+Maya Mashiah 207968066
 
 ## Selected Algorithms
 - Bubble Sort (ID 1)
